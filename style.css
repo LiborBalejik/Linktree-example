@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(#FBF8CC, #FDE4CF, #FFCFD2, #F1C0E8, #CFBAF0, #A3C4F3, #90DBF4, #8EECF5, #98F5E1, #B9FBC0);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    font-size: 60px; 
+    font-family: Edwardian Script ITC; 
+    text-align: center;
+    margin-top: 20px;
+}
+
+#buttons{
+    font-family: "Bernard MT Condensed";
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    gap: 50px;
+    width: 800px;
+}
+
+.button {
+    background-color: #f1faee;
+    border: 1px groove #f1faee;
+    padding: 10px 0px;
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 400ms, box-shadow 400ms;
+}
+
+.button:hover{
+    background-color: #f1faee;
+    border: 1px groove #f1faee;
+    padding: 10px 0px;
+    width: 100%;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.1);
+}
+.image-wrapper img{
+    display: block;
+    width: 150px;
+    border: 2px solid hotpink;
+    border-radius: 50%;
+    margin-top: 20px;   
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    }
